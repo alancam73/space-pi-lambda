@@ -20,7 +20,7 @@ https://github.com/alancam73/xyzfillin - S3 Static Website with CloudFront doing
 ## Pre-requisites
 * python 3.8 or higher
 * IAM permissions - the Lambda needs access to S3, Rekognition, and CloudWatch logs
-** Hence import the following Managed policies (NOTE - more restrictive policies can also be used)
-*** AmazonRekognitionFullAccess
-*** AmazonS3FullAccess
-*** AWSLambdaBasicExecutionRole
+  * Hence import the following Managed policies (NOTE - more restrictive policies can also be used)
+     * AmazonRekognitionFullAccess
+     * AmazonS3FullAccess
+     * AWSLambdaBasicExecutionRole
