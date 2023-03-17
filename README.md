@@ -17,3 +17,10 @@ To complete the picture you also need: -
 https://github.com/alancam73/xyzfillin - S3 Static Website with CloudFront doing slideshow of images with (or without!) pies!
 
 
+## Pre-requisites
+* python 3.8 or higher
+* IAM permissions - the Lambda needs access to S3, Rekognition, and CloudWatch logs
+** Hence import the following Managed policies (NOTE - more restrictive policies can also be used)
+*** AmazonRekognitionFullAccess
+*** AmazonS3FullAccess
+*** AWSLambdaBasicExecutionRole
