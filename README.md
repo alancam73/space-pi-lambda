@@ -38,5 +38,14 @@ project_arn   | ARN of the project containing the Reko model
 version_name  | Version name/number of the Reko model
 
 	          
-	        
+## Outputs
+* Creates a file images.txt with the following format which the space-pi static website ingests: -
+```
+images/021518_LG_space-beauty_main.jpg,0
+images/0302063_medium.jpg,1
+images/PIA18033_medium.jpg,0
+images/PIA19821_medium.jpg,1
+images/Space_night_sky.jpg,1
+images/archives_casa_wuutar.jpg,2
+```
 	       
