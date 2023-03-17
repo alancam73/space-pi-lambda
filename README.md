@@ -48,6 +48,8 @@ images/PIA19821_medium.jpg,1
 images/Space_night_sky.jpg,1
 images/archives_casa_wuutar.jpg,2
 ```
+The number at the end of each row is the number of PIes Rekognition detected in that image
+
 	       
 ## Model generation
 [Amazon Rekognition](https://aws.amazon.com/rekognition/) is straightforward to use. 
