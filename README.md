@@ -16,7 +16,7 @@ is much, much quicker)
 ## Dependent Repositories
 To complete the picture you also need: -
 
-https://github.com/alancam73/xyzfillin - S3 Static Website with CloudFront doing slideshow of images with (or without!) pies!
+https://github.com/alancam73/space-pi-web - S3 Static Website with CloudFront doing slideshow of images with (or without!) pies!
 
 
 ## Pre-requisites
