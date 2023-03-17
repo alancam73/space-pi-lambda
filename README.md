@@ -1,6 +1,7 @@
 # space-pi-lambda
 Lambda using AWS Rekognition to detect PIes in Space for Pi Day
 
+![Screenshot 2023-03-17 133948](https://user-images.githubusercontent.com/57327440/226037620-7cb9ee53-7c3e-4275-a3e7-d5fbcfc7436a.png "Space PI website")
 
 ## Overview
 Lambda which uses AWS Rekognition to detect PIes in Space images for PI Day.
