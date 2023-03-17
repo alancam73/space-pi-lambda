@@ -24,6 +24,7 @@ https://github.com/alancam73/xyzfillin - S3 Static Website with CloudFront doing
      * AmazonRekognitionFullAccess
      * AmazonS3FullAccess
      * AWSLambdaBasicExecutionRole
+* Configuration - timeout of >= 6 minutes (since it takes ~5 mins to start the model inference)
 
 
 ## Environment variables
