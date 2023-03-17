@@ -24,3 +24,12 @@ https://github.com/alancam73/xyzfillin - S3 Static Website with CloudFront doing
      * AmazonRekognitionFullAccess
      * AmazonS3FullAccess
      * AWSLambdaBasicExecutionRole
+
+
+## Environment variables
+log_group_envvar : the name of the CW Log Group to output the log stream
+Key                 Value
+bucket_name	        Name of the bucket with the images/ and the index.html and slideshow.js
+model_arn	          ARN of the Reko model generated
+project_arn	        ARN of the project containing the Reko model
+version_name	       Version name/number of the Reko model
