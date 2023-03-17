@@ -51,10 +51,10 @@ images/archives_casa_wuutar.jpg,2
 	       
 ## Model generation
 [Amazon Rekognition](https://aws.amazon.com/rekognition/) is straightforward to use. 
-- First, we create a dataset - uploaded images (20+) of Space with transparent PIes overlaid
-- Then we label the images by drawing a bounding box around the pie(s)
-- Next, we train the model using a standard 80/20 Training/Test split
-- Finally, we check the performance metrics (F1 score etc) to assure model accuracy
+1. First, we create a dataset - uploaded images (20+) of Space with transparent PIes overlaid
+2. Then we label the images by drawing a bounding box around the pie(s)
+3. Next, we train the model using a standard 80/20 Training/Test split
+4. Finally, we check the performance metrics (F1 score etc) to assure model accuracy
 
 After this is complete we invoke the Reko Model via our Lambda function (boto3 Python SDK)
 
